@@ -14,6 +14,7 @@ Regular Community Meeting:
 Resources:
 - [Proposals](https://github.com/xfyun/proposals)
 - [Meeting link](#please wait)
+- [Notes link](#please wait)
 
 
 
