@@ -1,5 +1,5 @@
 # Maintainers
 
 
-- [berlinsint](https://github.com/berlinsaint)
+- [berlinsaint](https://github.com/berlinsaint)
 - [sqjian](https://github.com/sqjian)
