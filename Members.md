@@ -7,7 +7,7 @@ owners:
 members:
 - ybyang7(iflytek)
 - ymcui(iflytek)
-- jbchen5(iflytek)
+- dejavu6(iflytek)
 
 
 ## 注意
