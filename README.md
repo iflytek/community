@@ -1,6 +1,6 @@
-# Iflytek AI Engineering Community
+# Iflytek Opensource Community
 
-Welcome to the Iflytek AI Engineering Community!
+Welcome to the Opensource Community!
 
 This is the starting point for joining and contributing to the AI Engineering Community community - improving docs, improving code, giving talks etc.
 
@@ -46,4 +46,4 @@ details on submitting patches and the contribution workflow.
 ## Membership
 We encourage all contributors to become members. Learn more about requirements and responsibilities of membership in our [Community Membership doc](./community-membership.md).
 
-If you have made contributions that meet the requirements of becoming Iflytek AI Community Engineering member, [simply file an issue](https://github.com/xfyun/community/issues/new) to apply.
+If you have made contributions that meet the requirements of becoming Iflytek OpenSource  member, [simply file an issue](https://github.com/iflytek/community/issues/new) to apply.
