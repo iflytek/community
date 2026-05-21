@@ -1,0 +1,34 @@
+name: checks
+
+on:
+  pull_request:
+    paths:
+      - '*.md'
+      - 'code-of-conduct/*.md'
+      - '.github/workflows/check.yml'
+  push:
+    branches:
+      - 'release-*'
+      - 'master'
+      - 'main'
+    tags:
+      - 'v*'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  toc-update:
+    runs-on: ubuntu-latest
+    name: Verify table of contents
+    steps:
+    - uses: actions/checkout@v6
+    - name: Set up Go
+      uses: actions/setup-go@v5
+      with:
+        go-version-file: scripts/go.mod
+    - run: make toc-update && git diff --exit-code
