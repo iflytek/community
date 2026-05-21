@@ -22,6 +22,7 @@ toc-update update-toc: $(MDTOC_BINARY) ## Update table of contents in markdown f
 	find $(ROOT_DIR) -name '*.md' \
 	    -not -path "*/tmp/*" \
 	    -not -name "MAINTAINERS.md" \
+	    -not -name "PULL_REQUEST_TEMPLATE.md" \
 	    | xargs $(MDTOC_BINARY) --inplace --max-depth=5
 
 ##@ Checking
@@ -32,6 +33,7 @@ toc-verify verify-toc: $(MDTOC_BINARY) ## Verify table of contents are up to dat
 	find $(ROOT_DIR) -name '*.md' \
 	    -not -path "*/tmp/*" \
 	    -not -name "MAINTAINERS.md" \
+	    -not -name "PULL_REQUEST_TEMPLATE.md" \
 	    | xargs $(MDTOC_BINARY) --inplace --max-depth=5 --dryrun || ( \
 	      echo "Table of contents not up to date. Did you run 'make toc-update'?"; \
 	      exit 1 \
