@@ -19,5 +19,6 @@
 package tools
 
 import (
+	_ "github.com/client9/misspell/cmd/misspell"
 	_ "sigs.k8s.io/mdtoc"
 )

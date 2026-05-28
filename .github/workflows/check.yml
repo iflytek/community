@@ -22,7 +22,7 @@ permissions:
   contents: read
 
 jobs:
-  toc-update:
+  toc-verify:
     runs-on: ubuntu-latest
     name: Verify table of contents
     steps:
@@ -32,3 +32,14 @@ jobs:
       with:
         go-version-file: scripts/go.mod
     - run: make toc-update && git diff --exit-code
+
+  spelling-verify:
+    runs-on: ubuntu-latest
+    name: Verify spelling
+    steps:
+    - uses: actions/checkout@v6
+    - name: Set up Go
+      uses: actions/setup-go@v6
+      with:
+        go-version-file: scripts/go.mod
+    - run: make spelling-verify

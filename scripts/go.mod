@@ -2,7 +2,10 @@ module github.com/iflytek/community/scripts
 
 go 1.26.1
 
-require sigs.k8s.io/mdtoc v1.4.0
+require (
+	github.com/client9/misspell v0.3.4
+	sigs.k8s.io/mdtoc v1.4.0
+)
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
