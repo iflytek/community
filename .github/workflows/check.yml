@@ -42,4 +42,4 @@ jobs:
       uses: actions/setup-go@v6
       with:
         go-version-file: scripts/go.mod
-    - run: make spelling-update && git diff --exit-code
+    - run: make spelling-verify
