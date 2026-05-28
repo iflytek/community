@@ -25,7 +25,7 @@ When opening an issue, please include:
 3. **Environment** — Version, OS, relevant configuration
 4. **Screenshots/logs** — If applicable, include supporting evidence
 
-Use our [issue templates](.github/ISSUE_TEMPLATE/) when available.
+Use our [issue templates](../.github/ISSUE_TEMPLATE/) when available.
 
 ## Issue Triage Process
 

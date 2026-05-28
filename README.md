@@ -17,6 +17,8 @@ To learn more about the project structure and organization, please refer to our 
 
 ## Communicating
 
+We hold bi-weekly community meetings to discuss project updates, cross-SIG topics, and community initiatives. All community members are welcome to attend. See [Community Meeting](community-meeting.md) for schedule and participation details.
+
 For more specific topics, try a SIG.
 
 ## Contact
