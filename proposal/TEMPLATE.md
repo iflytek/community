@@ -6,6 +6,27 @@
 - Initial Maintainers: @maintainer1, @maintainer2 (iflytek Org Members)
 - Tracking Issue: https://github.com/iflytek/community/issues/XXXX
 
+<!-- toc -->
+- [1. Abstract](#1-abstract)
+- [2. Motivation](#2-motivation)
+  - [2.1 Pain Points](#21-pain-points)
+  - [2.2 Use Cases](#22-use-cases)
+  - [2.3 Why a Separate Repository?](#23-why-a-separate-repository)
+- [3. Scope &amp; Goals](#3-scope--goals)
+  - [3.1 Primary Goals](#31-primary-goals)
+  - [3.2 Non-Goals](#32-non-goals)
+- [4. Architecture &amp; Dependencies](#4-architecture--dependencies)
+  - [4.1 Core Components](#41-core-components)
+  - [4.2 Dependencies](#42-dependencies)
+- [5. Governance &amp; Maintenance](#5-governance--maintenance)
+- [6. Release Policy](#6-release-policy)
+- [7. CI/CD &amp; Security](#7-cicd--security)
+- [8. Repository Configuration](#8-repository-configuration)
+- [9. Risks &amp; Alternatives](#9-risks--alternatives)
+- [10. Timeline](#10-timeline)
+- [11. References](#11-references)
+<!-- /toc -->
+
 ## 1. Abstract
 Summarize the project's positioning, the problem it solves, target users, and core value in one paragraph.
 
