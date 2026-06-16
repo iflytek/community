@@ -1,8 +1,6 @@
 name: Repository Creation Request
 description: Request to create a new repository in the iflytek organization
 title: "REQUEST: Create new repo: <repo-name>"
-labels:
-  - area/github-management
 body:
   - type: input
     id: repo-name

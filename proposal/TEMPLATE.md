@@ -1,7 +1,6 @@
 # Repository Proposal: <repo-name>
 
 ## Metadata
-- Sponsoring SIG: SIG XXX (e.g., SIG AI-Infra / SIG Speech / SIG NLP)
 - Target Repository Name: <lowercase-hyphen-name>
 - Primary Authors: @github-id1, @github-id2
 - Initial Maintainers: @maintainer1, @maintainer2 (iflytek Org Members)
