@@ -1,0 +1,58 @@
+name: Repository Creation Request
+description: Request to create a new repository in the iflytek organization
+title: "REQUEST: Create new repo: <repo-name>"
+body:
+  - type: input
+    id: repo-name
+    attributes:
+      label: Repository Name
+      placeholder: e.g., my-project
+    validations:
+      required: true
+
+  - type: input
+    id: repo-description
+    attributes:
+      label: Repository Description
+      placeholder: A brief description of the repository's purpose
+    validations:
+      required: true
+
+  - type: dropdown
+    id: repo-visibility
+    attributes:
+      label: Visibility
+      options:
+        - Public
+        - Private
+    validations:
+      required: true
+
+  - type: textarea
+    id: project-admins
+    attributes:
+      label: Project Admins
+      description: "Format: `@username`, one per line"
+      placeholder: |
+        - @admin1
+        - @admin2
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context (Optional)
+      placeholder: Any other relevant information...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I have reviewed the community guidelines
+          required: true
+        - label: I will be the primary maintainer or know who will be
+          required: true
