@@ -5,7 +5,7 @@
 - Target Repository Name: scenario-packs
 - Primary Authors: @XiaoSeS
 - Initial Maintainers: @dongmucat (primary), @XiaoSeS
-- Requested Repository Admin: @dongmucat
+- Requested Repository Admins: @dongmucat, @XiaoSeS
 - Tracking Issue: https://github.com/iflytek/community/issues/24
 - Proposed Landscape: Application Platforms & Harness / Protocols and Interoperability (3.1.2)
 
@@ -220,7 +220,8 @@ The checkboxes describe requested settings, not an existing repository's state.
 - [ ] Transfer existing external repo (not applicable; this is a new repository)
 
 Create a new public `scenario-packs` repository in the iflytek organization, with
-@dongmucat as administrator and primary maintainer, and @XiaoSeS as co-maintainer.
+@dongmucat as primary maintainer and @XiaoSeS as co-maintainer. Request repository
+administrator access for both maintainers.
 Use `main` as the default branch and configure branch protection and required
 checks after creation. The proposed name follows the community template's
 lowercase-hyphen convention; if reviewers require another repository name, assess
